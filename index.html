@@ -23,14 +23,23 @@
         img {
             width: 50%;
         }
+        .img-special {
+            width: 5%;
+        }
         @media (orientation: portrait) {
             img {
-                width: 50%;
+                width: 60%;
+            }
+            .img-special {
+                width: 10%;
             }
         }
         @media (orientation: landscape) {
             img {
-                width: 20%;
+                width: 30%;
+            }
+            .img-special {
+                width: 5%;
             }
         }
     </style>
@@ -44,12 +53,18 @@
                 </td>
             </tr>
             <tr>
-                <td>
+                <td style="padding-bottom: 200px;">
                     <img src="images/proxiamente.png" alt="Image 2"/>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <a href="https://www.instagram.com/acap.lp?igsh=bXNnMmpqOXZqcDds" target="_blank">
+                        <img src="images/logo-instagram.png" alt="Image 3" class="img-special" />
+                    </a>
+                </td>
+            </tr>
         </table>
-
     </div>
 </body>
 </html>
