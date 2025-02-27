@@ -20,20 +20,34 @@
             padding: 20px;
             border-radius: 10px;          
         }
+        img {
+            width: 50%;
+        }
+        @media (orientation: portrait) {
+            img {
+                width: 50%;
+            }
+        }
+        @media (orientation: landscape) {
+            img {
+                width: 20%;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <table>
             <tr>
-                <td style="padding-bottom: 200px;" >
-                    <img src="images/acap-logo.png" alt="Image 1" width="50%"/>
+                <td style="padding-bottom: 200px;">
+                    <img src="images/acap-logo.png" alt="Image 1"/>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img src="images/proxiamente.png" alt="Image 2" width="50%"/>
+                    <img src="images/proxiamente.png" alt="Image 2"/>
                 </td>
+            </tr>
         </table>
 
     </div>
